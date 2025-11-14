@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	<TargetFramework>net8.0</TargetFramework>
+	<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	<PackageId>SCS.MDScribe</PackageId>
+	<ImplicitUsings>enable</ImplicitUsings>
+	<Nullable>enable</Nullable>
+	<Version>1.0.0</Version>
+	<Authors>WebLuke of Sweet Corn Software</Authors>
+	<Description>A fluent Markdown builder for .NET.</Description>
+	<PackageLicenseExpression>MIT</PackageLicenseExpression>
+	<RepositoryUrl>https://github.com/webluke/scsmdscribe</RepositoryUrl>
+  </PropertyGroup>
+
+</Project>
