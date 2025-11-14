@@ -10,7 +10,7 @@
 	<Authors>WebLuke of Sweet Corn Software</Authors>
 	<Description>A fluent Markdown builder for .NET.</Description>
 	<PackageLicenseExpression>MIT</PackageLicenseExpression>
-	<RepositoryUrl>https://github.com/webluke/scsmdscribe</RepositoryUrl>
+	<RepositoryUrl>https://github.com/webluke/SCS.MDScribe</RepositoryUrl>
   </PropertyGroup>
 
 </Project>

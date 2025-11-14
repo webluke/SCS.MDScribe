@@ -5,8 +5,6 @@ It makes it easy to generate structured Markdown documents using a clean, chaina
 
 Designed for C#, Blazor, ASP.NET, API output, tools, documentation generators, and any workflow where you need clean Markdown output.
 
-*Built with help from T3 Chat (GPT‑5.1 Instant), guided by Luke.*
-
 ---
 
 ## Features
