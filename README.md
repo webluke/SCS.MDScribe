@@ -24,7 +24,7 @@ Designed for C#, Blazor, ASP.NET, API output, tools, documentation generators, a
 ## Installation
 
 ```bash
-dotnet add package MDScribe
+dotnet add package SCS.MDScribe
 ```
 
 ---
