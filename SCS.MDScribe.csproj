@@ -7,8 +7,14 @@
 	<ImplicitUsings>enable</ImplicitUsings>
 	<Nullable>enable</Nullable>
 	<Version>1.0.0</Version>
-	<Authors>WebLuke of Sweet Corn Software</Authors>
-	<Description>A fluent Markdown builder for .NET.</Description>
+	<Authors>WebLuke</Authors>
+	<Company>Sweet Corn Software</Company>
+	<Description>
+		A fluent Markdown generation library for .NET. Supports headers, paragraphs, lists, tables, code fencing, callouts, math blocks, task lists, blockquotes, footnotes, collapsible sections, alignment tables, and more. Designed for clean programmatic Markdown output in C#, Blazor, ASP.NET, and tooling.
+	</Description>
+	<PackageTags>
+		markdown;md;builder;fluent;generation;documentation;text;report;csharp;dotnet;blazor;table;codeblock;footnote;markdown-builder
+	</PackageTags>
 	<PackageLicenseExpression>MIT</PackageLicenseExpression>
 	<RepositoryUrl>https://github.com/webluke/SCS.MDScribe</RepositoryUrl>
   </PropertyGroup>

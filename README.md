@@ -64,6 +64,13 @@ File.WriteAllText("output.md", md);
 .H3("Subsection")
 ```
 
+### Headings With Anchors
+
+```csharp
+.H2WithAnchor("API Reference", "api-ref");
+```
+
+
 ### Text Blocks
 
 ```csharp
@@ -81,12 +88,25 @@ File.WriteAllText("output.md", md);
 .InlineCode("value")
 ```
 
+### Highlight Text
+
+```csharp
+.Paragraph("This is ").Highlight("important").AppendLine(".");
+```
+
+### Emoji
+
+```csharp
+.Paragraph("Build successful ").Emoji("sparkles");
+```
+
 ### Lists
 
 ```csharp
 .BulletList(new[] { "A", "B" })
 .NumberList(new[] { "Step 1", "Step 2" })
 .TaskList(new [] { ("Do work", false), ("Ship", true) })
+.DefinitionList("API", "Application Programming Interface");
 ```
 
 ### Code Blocks
@@ -105,6 +125,51 @@ File.WriteAllText("output.md", md);
         new[] { "RAM", "16GB" }
     }
 )
+```
+
+### Table With Alignment
+
+```csharp
+.TableWithAlignment(
+    new[] { "Name", "Score", "Status" },
+    new[] { "left", "center", "right" },
+    new[]
+    {
+        new[] { "Alice", "92", "Pass" },
+        new[] { "Bob", "76", "Pass" },
+        new[] { "Charlie", "48", "Fail" }
+    }
+);
+```
+
+
+### Footnotes
+
+```csharp
+.Paragraph("This is text with a footnote")
+.FootnoteReference("1")
+.FootnoteDefinition("1", "This is the footnote.");
+```
+
+### Math Blocks
+
+```csharp
+.MathBlock(@"x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}");
+```
+
+### Collapsible Sections
+
+```csharp
+.Collapsible("Show Details", "Here are more details inside a collapsible section.");
+```
+
+
+### Callouts
+
+```csharp
+.Note("This method is experimental.");
+.Tip("Use MDScribe to generate clean markdown.");
+.Warning("Do not forget to escape user input.");
 ```
 
 ---
